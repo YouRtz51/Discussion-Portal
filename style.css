@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background: #FFAFBD;
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+}
+header .navbar ul li a{
+    color: #666;
+    transition: 0.3s all ease-in-out;
+}
+header .navbar ul li a:hover{
+    color: #913a50;
+}
+main {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+section form textarea {
+    height: 150px;
+}
+
+table {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+.table tbody #delete {
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    background-color: #913a50;
+    transition: 0.3s ease all;
+}
+
+input[type=submit]:hover {
+    background: #fff;
+}
